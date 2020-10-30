@@ -18,5 +18,5 @@ wget https://ffmpeg.org/releases/ffmpeg-4.3.1.tar.gz -O /tmp/ffmpeg-4.3.1.tar.gz
 cd /tmp
 tar xvf ffmpeg-4.3.1.tar.gz
 cd /tmp/ffmpeg-4.3.1
-./configure --prefix=/usr/local/ffmpeg --enable-gpl --enable-nonfree --enable-libfdk-aac --enable-libx264 --enable-libx265 --enable-filter=delogo --enable-debug --disable-shared --enable-pthreads --enable-version3
+./configure --prefix=/usr/local/ffmpeg --enable-gpl --enable-nonfree --enable-libfdk-aac --enable-libx264 --enable-libx265 --enable-filter=delogo --enable-debug --disable-shared --enable-pthreads --enable-libfreetype --enable-libfontconfig --enable-libfribidi --enable-version3
 make && make install
